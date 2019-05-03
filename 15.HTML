@@ -1,0 +1,117 @@
+<html>
+<head>
+</head>
+<style>
+body{
+background: url('IMAGE6.jpg') no-repeat;
+background-size:cover;
+font-family:Arial;
+color:white;
+}
+h1
+{
+	background-color:white;
+	border-radius:20px;
+	text-align:center;
+	font-size:40px;
+	color:blue;
+
+}
+body{
+background-color:#00bfff;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+text-align=center;
+background-color: PINK;
+}
+</style>
+
+<body>
+<H1> <CENTER>COURSE MANAGEMENT SYSTEM</CENTER></H1>
+<form>
+</body>
+<tr>
+<H2><td>ASSINGMENT</td>
+<td><select name="District"></h2>
+<option value="-1" selected>select..</option>
+<option value="Nalanda">MID1</option>
+<option value="UP">MID2</option>
+</select></td></BR>
+<H2><td>DEPARTMENT</td>
+<td><select name="District"></h2>
+<option value="-1" selected>select..</option>
+<option value="Nalanda">CSE</option>
+<option value="UP">IT</option>//
+</select></td></BR>
+<H2><td>IDNO</td>
+<td><select name="District"></h2>
+<option value="-1" selected>select..</option>
+<option value="Nalanda">590</option>
+<option value="UP">589</option>
+<option value="UP">518</option>
+<option value="UP">505</option>
+<option value="UP">515</option>
+<option value="UP">511</option>
+</select></td></BR>
+
+</tr>
+<input type="button"value="submit" onclick="alert('your assingment has beem submitted')"></button>
+<input type="button"value="cancel" onclick="alert('not submitted')"></button>
+<table>
+  <tr>
+    <th>ASSINGMENT</th>
+    <th>status</th>
+    <th>MID</th>
+  </tr>
+  <tr>
+    <td>JAVA</td>
+
+<td>
+<p id="demo1">click on button to check</p>
+
+<button type="button" onclick='document.getElementById("demo1").innerHTML = "submitted, Grade:B!"'>click </button>
+    </td>
+    <td>1ST</td>
+  </tr>
+  <tr>
+    <td>DOT NET</td>
+<th>
+<p id="demo">click on button to check</p>
+
+<button type="button" onclick='document.getElementById("demo").innerHTML = "submitted, Grade:A!"'>click </button>
+</th>
+    <td>1ST</td>
+  </tr>
+  <tr>
+    <td>C++</td>
+<td>
+<p id="demo2">click on button to check</p>
+
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "submitted, Grade:c!"'>click </button>
+</td>
+    <td>1ST</td>
+  </tr>
+  <tr>
+    <td>WEB DEVELOPMENT</td>
+<td>
+<p id="demo4">click on button to check</p>
+
+<button type="button" onclick='document.getElementById("demo4").innerHTML = "rejected, Grade:D!"'>click </button>
+</td>
+    <td>1ST</td>
+  </tr>
+</table>
+<input type="button" value="back" onclick="window.location.href='7.html'" />
+</form>
+</body>
+</html>
